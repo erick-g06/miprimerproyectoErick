@@ -2,7 +2,7 @@ services:
   hola-mundo:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
     container_name: hola-mundo-node
     ports:
       - "80:3000"
